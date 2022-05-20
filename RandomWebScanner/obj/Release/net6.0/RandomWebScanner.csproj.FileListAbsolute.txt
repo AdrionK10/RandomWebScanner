@@ -1,0 +1,15 @@
+C:\Users\adrion\RiderProjects\RandomWebScanner\RandomWebScanner\bin\Release\net6.0\RandomWebScanner.exe
+C:\Users\adrion\RiderProjects\RandomWebScanner\RandomWebScanner\bin\Release\net6.0\RandomWebScanner.deps.json
+C:\Users\adrion\RiderProjects\RandomWebScanner\RandomWebScanner\bin\Release\net6.0\RandomWebScanner.runtimeconfig.json
+C:\Users\adrion\RiderProjects\RandomWebScanner\RandomWebScanner\bin\Release\net6.0\RandomWebScanner.dll
+C:\Users\adrion\RiderProjects\RandomWebScanner\RandomWebScanner\bin\Release\net6.0\RandomWebScanner.pdb
+C:\Users\adrion\RiderProjects\RandomWebScanner\RandomWebScanner\obj\Release\net6.0\RandomWebScanner.csproj.AssemblyReference.cache
+C:\Users\adrion\RiderProjects\RandomWebScanner\RandomWebScanner\obj\Release\net6.0\RandomWebScanner.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adrion\RiderProjects\RandomWebScanner\RandomWebScanner\obj\Release\net6.0\RandomWebScanner.AssemblyInfoInputs.cache
+C:\Users\adrion\RiderProjects\RandomWebScanner\RandomWebScanner\obj\Release\net6.0\RandomWebScanner.AssemblyInfo.cs
+C:\Users\adrion\RiderProjects\RandomWebScanner\RandomWebScanner\obj\Release\net6.0\RandomWebScanner.csproj.CoreCompileInputs.cache
+C:\Users\adrion\RiderProjects\RandomWebScanner\RandomWebScanner\obj\Release\net6.0\RandomWebScanner.dll
+C:\Users\adrion\RiderProjects\RandomWebScanner\RandomWebScanner\obj\Release\net6.0\refint\RandomWebScanner.dll
+C:\Users\adrion\RiderProjects\RandomWebScanner\RandomWebScanner\obj\Release\net6.0\RandomWebScanner.pdb
+C:\Users\adrion\RiderProjects\RandomWebScanner\RandomWebScanner\obj\Release\net6.0\RandomWebScanner.genruntimeconfig.cache
+C:\Users\adrion\RiderProjects\RandomWebScanner\RandomWebScanner\obj\Release\net6.0\ref\RandomWebScanner.dll

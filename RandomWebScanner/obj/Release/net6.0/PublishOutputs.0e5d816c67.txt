@@ -1,0 +1,5 @@
+C:\Users\adrion\Desktop\RandomWebScanner.exe
+C:\Users\adrion\Desktop\RandomWebScanner.dll
+C:\Users\adrion\Desktop\RandomWebScanner.deps.json
+C:\Users\adrion\Desktop\RandomWebScanner.runtimeconfig.json
+C:\Users\adrion\Desktop\RandomWebScanner.pdb
