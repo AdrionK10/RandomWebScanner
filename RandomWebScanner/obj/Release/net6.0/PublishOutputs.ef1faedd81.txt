@@ -1,0 +1,5 @@
+C:\Users\adrion\RiderProjects\RandomWebScanner\RandomWebScanner\bin\Release\net6.0\publish\RandomWebScanner.exe
+C:\Users\adrion\RiderProjects\RandomWebScanner\RandomWebScanner\bin\Release\net6.0\publish\RandomWebScanner.dll
+C:\Users\adrion\RiderProjects\RandomWebScanner\RandomWebScanner\bin\Release\net6.0\publish\RandomWebScanner.deps.json
+C:\Users\adrion\RiderProjects\RandomWebScanner\RandomWebScanner\bin\Release\net6.0\publish\RandomWebScanner.runtimeconfig.json
+C:\Users\adrion\RiderProjects\RandomWebScanner\RandomWebScanner\bin\Release\net6.0\publish\RandomWebScanner.pdb

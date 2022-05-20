@@ -1,4 +1,4 @@
-﻿using System.Net.Mime;
+﻿using static System.IO.Directory;
 
 namespace RandomWebScanner;
 
@@ -9,28 +9,40 @@ public class DoPing
     
     public void FindRandomPings(long num)
     {
-        var filestream = new FileStream($"FoundSites{DateTime.Now:MMddyy-HHmmss}.txt", FileMode.Create);
+        var root = AppDomain.CurrentDomain.BaseDirectory;
+        if (!Exists(@$"{root}\output"))
+            CreateDirectory(@$"{root}\output");
+        
+        var foundStream = new FileStream(@$"{root}\output\Response{DateTime.Now:MMddyy-HHmmss}.txt", FileMode.Create);
+        var notFoundStream = new FileStream(@$"{root}\output\NoResponse{DateTime.Now:MMddyy-HHmmss}.txt", FileMode.Create);
         var stdConsole  = new StreamWriter(Console.OpenStandardOutput());
-        var streamWriter = new StreamWriter(filestream);
-        streamWriter.AutoFlush = true;
+        var foundWriter = new StreamWriter(foundStream);
+        var notFoundWriter = new StreamWriter(notFoundStream);
+        foundWriter.AutoFlush = true;
+        notFoundWriter.AutoFlush = true;
 
-        var pings = new Dictionary<string, bool>();
+        var pings = new List<string>();
         for (int i = 0; i <= num; i++)
         {
             var randSite = randSiteGenerator.RandomSite();
             var pinged = pinger.PingHost(randSite);
-            if (!pings.ContainsKey(randSite))
-                pings.Add(randSite, pinged);
-
-            Console.SetOut(stdConsole);
-            if (pinged)
+            
+            if (!pings.Contains(randSite))
+                pings.Add(randSite);
+            else 
             {
-                Console.WriteLine("[" + (i + 1) + " / " + num + "]" + "  " + randSite + "  **[Life Found]**");
-                Console.SetOut(streamWriter);
-                Console.WriteLine("Found: " + randSite);
+                Console.SetOut(stdConsole);
+                Console.WriteLine($"****************** Duplicate Random Site Skipped -> {randSite}");
+                continue;
             }
-            else
-                Console.WriteLine("[" + (i + 1) + " / " + num + "]"+  "  " + randSite);
+            
+            Console.SetOut(stdConsole);
+                
+            Console.WriteLine("[" + (i + 1) + " / " + num + "]" + "  " + randSite +
+                              (pinged ? "**[Responded]**" : "[No Response]"));
+
+            Console.SetOut(pinged ? foundWriter : notFoundWriter);
+            Console.WriteLine(randSite);
         }
     }
 }

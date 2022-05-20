@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\adrion\\RiderProjects\\RandomWebScanner\\RWS\\RandomWebScanner\\RandomWebScanner.csproj": {}
+    "C:\\Users\\adrion\\RiderProjects\\RandomWebScanner\\RandomWebScanner\\RandomWebScanner.csproj": {}
   },
   "projects": {
-    "C:\\Users\\adrion\\RiderProjects\\RandomWebScanner\\RWS\\RandomWebScanner\\RandomWebScanner.csproj": {
+    "C:\\Users\\adrion\\RiderProjects\\RandomWebScanner\\RandomWebScanner\\RandomWebScanner.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adrion\\RiderProjects\\RandomWebScanner\\RWS\\RandomWebScanner\\RandomWebScanner.csproj",
+        "projectUniqueName": "C:\\Users\\adrion\\RiderProjects\\RandomWebScanner\\RandomWebScanner\\RandomWebScanner.csproj",
         "projectName": "RandomWebScanner",
-        "projectPath": "C:\\Users\\adrion\\RiderProjects\\RandomWebScanner\\RWS\\RandomWebScanner\\RandomWebScanner.csproj",
+        "projectPath": "C:\\Users\\adrion\\RiderProjects\\RandomWebScanner\\RandomWebScanner\\RandomWebScanner.csproj",
         "packagesPath": "C:\\Users\\adrion\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adrion\\RiderProjects\\RandomWebScanner\\RWS\\RandomWebScanner\\obj\\",
+        "outputPath": "C:\\Users\\adrion\\RiderProjects\\RandomWebScanner\\RandomWebScanner\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\adrion\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -49,12 +49,31 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x86",
+              "version": "[6.0.2, 6.0.2]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x86",
+              "version": "[6.0.2, 6.0.2]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x86",
+              "version": "[6.0.2, 6.0.2]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300-preview.22154.4\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x86": {
+          "#import": []
         }
       }
     }
